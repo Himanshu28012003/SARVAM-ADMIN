@@ -54,11 +54,7 @@ npm install
 
 Create `.env` file in `principalservice/`:
 
-```env
-DATABASE_URL=postgresql://user:password@host/database?sslmode=require
-JWT_SECRET=your_super_secret_key_here
-PORT=3000
-```
+
 
 ### Running the Application
 
@@ -72,8 +68,6 @@ cd Frontent/sarvam
 npm run dev
 ```
 
-- Frontend: http://localhost:5173
-- Backend: http://localhost:3000
 
 ### Database Setup
 
