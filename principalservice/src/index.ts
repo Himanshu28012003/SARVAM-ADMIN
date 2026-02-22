@@ -17,7 +17,7 @@ app.use(express.json());
 
 // Routes
 app.use('/api', activityRoutes);
-app.use('/api/admin', adminRoutes);
+app.use('/admin', adminRoutes);
 
 // Initialize database and start server
 initializeDatabase().then(() => {
