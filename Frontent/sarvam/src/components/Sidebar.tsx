@@ -43,7 +43,7 @@ const Sidebar = () => {
         </p>
 
         <ul className="space-y-4">
-  {navItems.map((item, index) => (
+  {navItems.map((item) => (
     <li
       key={item.path}
       className="pb-4 border-b border-indigo-100 last:border-none"

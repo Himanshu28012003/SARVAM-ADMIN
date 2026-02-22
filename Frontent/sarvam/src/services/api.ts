@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { TeacherActivity, TeacherSummary, TeacherDetail, OverallStats, WeeklyTrend, DailyTrend } from '../types';
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://sarvam-admin.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
