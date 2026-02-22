@@ -14,7 +14,7 @@ app.use(
     origin: [
       "http://localhost:5173",   // Vite dev
       "http://localhost:3000",   // React dev
-    //   "https://your-frontend-domain.onrender.com" // <-- Replace with actual frontend URL
+      "sarvam-admin-9nzwerb5v-2801himanshu-9348s-projects.vercel.app" // <-- Replace with actual frontend URL
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
